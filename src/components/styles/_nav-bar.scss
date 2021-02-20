@@ -1,0 +1,31 @@
+.nav-bar-top {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  
+  &__left {
+    display: flex;
+    &--logo {
+      width: 40px;
+    }
+  }
+  &__center {
+    &--list {
+      display: flex;
+      width: 100%;
+      margin: auto;
+      padding-inline-start: 0px;
+      &-item {
+        list-style: none;
+        margin-left: 30px;
+      }
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
