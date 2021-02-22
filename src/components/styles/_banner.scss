@@ -1,0 +1,44 @@
+.banner {
+  width: 100%;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(
+    to top right,
+    #ff6513,
+    #c061f9,
+    #367fff,
+    #6cea31,
+    #e4f801
+  );
+  &__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--img {
+      width: 40rem;
+    }
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    &--title {
+      font-size: 2.5rem;
+    }
+    &--content {
+      margin: 2rem 0;
+      width: 80%;
+      span {
+        text-decoration: line-through;
+      }
+    }
+    &--buttons {
+      button {
+      }
+      &-buy-now {
+      }
+    }
+  }
+}
