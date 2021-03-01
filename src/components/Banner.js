@@ -12,7 +12,7 @@ function Banner() {
         </h2>
         <p className="banner__right--content">
           Elevate your ideas and save on the Creative Cloud all apps plan. Was
-          <span> ₹4,230.30/mo</span> (incl. GST), now just ₹3,193.08/mo (incl.
+          <span> ₹4,230.30/mo</span> (incl. GST), now just ₹3,000.08/mo (incl.
           GST).
           <br /> Hurry, sale ends 4 Mar.
         </p>
